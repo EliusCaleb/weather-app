@@ -77,6 +77,7 @@ main{
     background:rgba(153,205,50,0.75);
     padding: 2px 20px;
     border-radius: 15px;
+    text-transform: capitalize;
 }
 .next{
     display: flex;
@@ -100,14 +101,16 @@ main{
 }
 .time, .date{
     color: rgb(254,189,132);
+    font-weight: 600;
 }
-.desc{
+.desc, .description{
     color:rgb(196,255,77);
+    text-transform: capitalize;
 }
 .divider1, .divider2{
     background: rgba(254,189,132,0.5);
     height: 200px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .divider2{
     height:5px;
@@ -117,6 +120,7 @@ main{
 .forecastD{
     margin:20px 50px;
     color: aliceblue;
+    font-weight: 500;
 }
 .weekF{
     display: grid;
